@@ -1,0 +1,51 @@
+package com.example.cw7;
+
+public class Pokemon {
+
+    private String Name;
+    private Integer image:
+    private Integer Attack;
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public Integer getImage() {
+        return image;
+    }
+
+    public void setImage(Integer image) {
+        this.image = image;
+    }
+
+    public Integer getAttack() {
+        return Attack;
+    }
+
+    public void setAttack(Integer attack) {
+        Attack = attack;
+    }
+
+    public Integer getDefense() {
+        return Defense;
+    }
+
+    public void setDefense(Integer defense) {
+        Defense = defense;
+    }
+
+    public Integer getTotal() {
+        return Total;
+    }
+
+    public void setTotal(Integer total) {
+        Total = total;
+    }
+
+    private Integer Defense;
+    private Integer Total;
+}
